@@ -1,0 +1,143 @@
+body {margin:0;}
+
+.header-title {
+  background-image: url(introduction.img/header_aoashi.jpg)
+}
+
+.head-small {
+  font-size: 20px;
+}
+
+.header-aoashi {
+  margin: 20px 0px;
+  height: 720px;
+  width: 1200px;
+}
+
+.aoashi {
+  font-size: 45px;
+  font-family: serif;
+  white-space: nowrap;
+  position:absolute;
+  margin: 450px 200px 200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h1 {
+  margin-left: 20px;
+  color:black
+}
+
+.container{
+  border: 4px solid;
+  border-radius: 8px;
+  margin: 0px 40px 0px;
+}
+
+.self-introduction {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.introduction-profile {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container-career {
+  border: 4px solid;
+  border-radius: 8px;
+  margin: 10px 40px 0px;
+}
+
+.career {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.introduction-career {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container-underbox {
+  display: flex;
+}
+
+.container-favorite {
+  border: 4px solid;
+  border-radius: 8px;
+  margin: 10px 0px 0px 40px;
+  padding-bottom: 0px;
+}
+
+.favorite {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.introduction-favorite {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0px 100px 0px;
+}
+
+
+.imag-box {
+  border: 4px solid;
+  border-radius: 8px;
+  margin: 10px 30px 0px 5px;
+  vertical-align: bottom;
+  line-height: 0;
+}
+
+.container-aboutme {
+  border: 4px solid;
+  border-radius: 8px;
+  margin: 10px 40px 0px 40px;
+  padding-bottom: 0px;
+}
+
+.aboutme {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.introduction-aboutme {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.aboutme-imag {
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 60px 30px 60px;
+}
+
+.footer-box {
+  background-color: gray;
+  height: 80px;
+  position: relative;
+  margin-top: 10px;
+}
+
+.footer-span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
+  width: 100px;
+  text-align: center;
+  white-space: nowrap;
+}
